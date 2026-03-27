@@ -1,0 +1,22 @@
+<%-   include('partials/head.ejs') %>
+ <link href="css/styles.css" rel="stylesheet">
+    <h1>The Solar System</h1>
+    <%-   include('partials/nav.ejs') %>
+    <h2>Uranus</h2>
+    <img src="<%=   uranus.image  %>" width="600"><br>
+    <%=uranus.description%>
+             <br><br>
+    Distance From Sun: <%=uranus.distanceFromSun%>
+    <br>
+    Year Length: <%=uranus.yearLength%>
+    <br>
+    Radius: <%=uranus.radius%> miles
+    <br>
+    Day Length: <%=uranus.oneEarthDay%>
+    <br>
+    Number of Moons: <%=uranus.moons%>
+    <br><br>
+    For more info: <%=uranus.websiteLink%>
+
+
+<%-   include('partials/footer.ejs') %>

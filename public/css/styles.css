@@ -1,0 +1,19 @@
+body {
+    background-image: url("../img/stars.png");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nasa-img {
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* stack content vertically */
+    align-items: center;
+    width: 40%;
+    margin: 20px auto; /* centers the box */
+    padding: 20px; /* space around the image */
+}

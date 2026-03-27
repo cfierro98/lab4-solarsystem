@@ -1,0 +1,21 @@
+<%-   include('partials/head.ejs') %>
+ <link href="css/styles.css" rel="stylesheet">
+    <h1>The Solar System</h1>
+    <%-   include('partials/nav.ejs') %>
+    <h2>Mars</h2>
+    <img src="<%=   mars.image  %>" width="500"><br>
+    <%=mars.description%>
+             <br><br>
+    Distance From Sun: <%=mars.distanceFromSun%>
+    <br>
+    Year Length: <%=mars.yearLength%>
+    <br>
+    Radius: <%=mars.radius%> miles
+    <br>
+    Day Length: <%=mars.oneEarthDay%>
+    <br>
+    Number of Moons: <%=mars.moons%>
+    <br><br>
+    For more info: <%=mars.websiteLink%>
+
+<%-   include('partials/footer.ejs') %>

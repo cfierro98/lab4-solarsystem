@@ -1,0 +1,21 @@
+<%-   include('partials/head.ejs') %>
+ <link href="css/styles.css" rel="stylesheet">
+    <h1>The Solar System</h1>
+    <%-   include('partials/nav.ejs') %>
+    <h2>Saturn</h2>
+    <img src="<%=   saturn.image  %>" width="600"><br>
+    <%=saturn.description%>
+             <br><br>
+    Distance From Sun: <%=saturn.distanceFromSun%>
+    <br>
+    Year Length: <%=saturn.yearLength%>
+    <br>
+    Radius: <%=saturn.radius%> miles
+    <br>
+    Day Length: <%=saturn.oneEarthDay%>
+    <br>
+    Number of Moons: <%=saturn.moons%>
+    <br><br>
+    For more info: <%=saturn.websiteLink%>
+
+<%-   include('partials/footer.ejs') %>

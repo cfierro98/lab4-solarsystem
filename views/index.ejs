@@ -1,0 +1,16 @@
+    <style>
+    body{ 
+        background-image: url("<%= image %>");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ 	</style>
+    <%-   include('partials/head.ejs') %>
+    <h1>The Solar System</h1>
+    <%-   include('partials/nav.ejs') %>
+    <img src="/img/solar-system.png">
+</body>
+<%-   include('partials/footer.ejs') %>

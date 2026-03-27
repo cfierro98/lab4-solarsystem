@@ -1,0 +1,23 @@
+<%-   include('partials/head.ejs') %>
+ <link href="css/styles.css" rel="stylesheet">
+    <h1>The Solar System</h1>
+    <%-   include('partials/nav.ejs') %>
+    <h2>Pluto</h2>
+    <img src="<%=   pluto.image  %>" width="300"><br>
+    <%=pluto.description%>
+             <br><br>
+    Distance From Sun: <%=pluto.distanceFromSun%>
+    <br>
+    Year Length: <%=pluto.yearLength%>
+    <br>
+    Radius: <%=pluto.radius%> miles
+    <br>
+    Day Length: <%=pluto.oneEarthDay%>
+    <br>
+    Number of Moons: <%=pluto.moons%>
+    <br><br>
+    For more info: <%=pluto.websiteLink%>
+
+</body>
+<%-   include('partials/footer.ejs') %>
+</html>

@@ -1,0 +1,25 @@
+<%-   include('partials/head.ejs') %>
+ <link href="css/styles.css" rel="stylesheet">
+    <h1>The Solar System</h1>
+    <%-   include('partials/nav.ejs') %>
+    <h2>Neptune</h2>
+    <img src="<%=   neptune.image  %>" width="600"><br>
+    <%=neptune.description%>
+             <br><br>
+    Distance From Sun: <%=neptune.distanceFromSun%>
+    <br>
+    Year Length: <%=neptune.yearLength%>
+    <br>
+    Radius: <%=neptune.radius%> miles
+    <br>
+    Day Length: <%=neptune.oneEarthDay%>
+    <br>
+    Number of Moons: <%=neptune.moons%>
+    <br><br>
+    For more info: <%=neptune.websiteLink%>
+    
+
+
+
+<%-   include('partials/footer.ejs') %>
+</html>

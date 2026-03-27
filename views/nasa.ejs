@@ -1,0 +1,12 @@
+<%- include('partials/head.ejs') %>
+ <link href="css/styles.css" rel="stylesheet">
+<%-   include('partials/head.ejs') %>
+    <h1>The Solar System</h1>
+    <%-   include('partials/nav.ejs') %>
+<h2><%= title %></h2>
+<div id="nasa-img">
+<img src="<%= url %>" alt="NASA APOD" width="500">
+</div>
+<p><%= explanation %></p>
+
+<%- include('partials/footer.ejs') %>
